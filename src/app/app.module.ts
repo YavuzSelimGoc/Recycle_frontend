@@ -6,11 +6,17 @@ import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CategoryComponent } from './components/category/category.component';
+import { ProductListComponent } from './components/product-list/product-list.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { ProductMainComponent } from './components/product-main/product-main.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CategoryComponent
+    CategoryComponent,
+    ProductListComponent,
+    SidebarComponent,
+    ProductMainComponent
   ],
   imports: [
     BrowserModule,
